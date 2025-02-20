@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(gradient-triangle-abstract-background-template-10032405.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+    
+  #quiz {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #6cc2c7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(198, 222, 60, 0.2);
+  }
+    
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+    
+  #question {
+    margin-bottom: 20px;
+  }
+    
+  #options {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+    
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: rgb(227, 238, 10, 245, 161);
+    color: #131313;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+    
+  button:hover {
+    background-color: #8f8d8d;
+  }

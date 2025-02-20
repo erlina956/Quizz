@@ -1,0 +1,46 @@
+body {
+  background-image: url(abstract-background-design-transitioning-from-orange-to-purple-10032403\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  width: 120px;
+  height: 100px;
+  cursor: pointer;
+}
+.one {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.one ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.one ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.one ul li a:hover {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #009688;
+}
+.two {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  color: white;
+}
+.two h1 {
+  font-size: 80px;
+  margin-top: 82px;
+}
+  
